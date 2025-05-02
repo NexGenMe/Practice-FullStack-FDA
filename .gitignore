@@ -1,0 +1,50 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore npm dependencies
+node_modules/
+
+# Ignore node_modules folder in the frontend directory
+frontend/node_modules/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.pyc
+*.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore debug and release folders
+Debug/
+Release/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
